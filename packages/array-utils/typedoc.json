@@ -1,0 +1,6 @@
+{
+  "entryPoints": ["./lib/index.ts"],
+  "out": "./docs/libs/array-utils",
+  "exclude": ["*.spec.ts", "*.e2e.ts"],
+  "tsconfig": "./tsconfig.json"
+}

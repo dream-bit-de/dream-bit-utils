@@ -1,0 +1,31 @@
+{
+  "name": "@dream-bit/array-utils",
+  "version": "1.0.0",
+  "description": "A package to have some utilities when working with arrays",
+  "keywords": [
+    "array",
+    "arrays",
+    "utilities",
+    "util"
+  ],
+  "author": "Dream-bit <hello@dream-bit.de>",
+  "homepage": "https://dream-bit.de",
+  "license": "MPL-2.0",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dream-bit-de/dream-bit-utils.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "docs": "typedoc --options ./typedoc.json"
+  },
+  "bugs": {
+    "url": "https://github.com/dream-bit-de/dream-bit-utils/issues"
+  }
+}
