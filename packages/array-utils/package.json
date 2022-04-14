@@ -1,6 +1,6 @@
 {
   "name": "@dream-bit/array-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package to have some utilities when working with arrays",
   "keywords": [
     "array",
