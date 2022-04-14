@@ -23,6 +23,9 @@
   },
   "scripts": {
     "test": "jest",
+    "cleanup": "rimraf ../../lib/packages/array-utils",
+    "prebuild": "yarn cleanup && yarn test && yarn docs",
+    "build": "tsc --project tsconfig.lib.json",
     "docs": "typedoc --options ./typedoc.json"
   },
   "bugs": {
