@@ -2,6 +2,8 @@
 
 > TODO: description
 
+Docs: https://dream-bit-de.github.io/dream-bit-utils/packages/array-utils/docs/
+
 ## Usage
 
 ```

@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "doc": "typedoc --entryPointStrategy packages ."
+  },
   "devDependencies": {
     "@types/jest": "27.4.0",
     "@types/node": "17.0.10",
