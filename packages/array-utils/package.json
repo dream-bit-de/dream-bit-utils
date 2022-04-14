@@ -1,5 +1,5 @@
 {
-  "name": "@dream-bit-de/array-utils",
+  "name": "@dream-bit/array-utils",
   "version": "1.0.4",
   "description": "A package to have some utilities when working with arrays",
   "keywords": [
@@ -31,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/dream-bit-de/dream-bit-utils/issues"
   },
-  "gitHead": "9ee6dc6b072c042d2489d99cea8e097b9f5ebe86"
+  "gitHead": "bf4b8d6a468665ebb60e3785e17723d852bad24e"
 }
