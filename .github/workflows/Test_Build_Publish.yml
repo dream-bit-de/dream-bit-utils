@@ -39,4 +39,4 @@ jobs:
         git config --global user.email ci-bot@github.com
         git config --global user.name GitHub Actions
     - name: Publish Packages
-      run: lerna publish --no-verify-access
+      run: lerna publish patch --no-verify-access
