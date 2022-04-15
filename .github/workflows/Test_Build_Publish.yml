@@ -26,4 +26,4 @@ jobs:
     - name: Install Repo deps
       run: yarn install --immutable
     - name: Run tests
-      run: lerna run test
+      run: lerna run test --stream
