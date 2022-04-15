@@ -18,12 +18,25 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0 # Checkout all branches and tags; important for lerna to track changes.
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
     - name: Install Repo deps
-      run: yarn install --immutable
+      run: lerna bootstrap
     - name: Run tests
       run: lerna run test --stream
+    - name: Authenticate with Registry
+      run: echo "registry=//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+      env:
+        NPM_TOKEN: ${{ secrets.DREAM_BIT_UTILS_NPM_TOKEN }}
+
+    - name: Configure CI Git User
+      run: |
+        git config --global user.email ci-bot@github.com
+        git config --global user.name GitHub Actions
+    - name: Publish Packages
+      run: lerna publish patch --no-verify-access --yes
