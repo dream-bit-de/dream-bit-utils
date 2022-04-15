@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/@dream-bit/array-utils.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@dream-bit/array-utils)
+
 # `array-utils`
 
 > TODO: description

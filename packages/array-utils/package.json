@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/dream-bit-de/dream-bit-utils/issues"
   },
-  "gitHead": "bf4b8d6a468665ebb60e3785e17723d852bad24e"
+  "gitHead": "bf4b8d6a468665ebb60e3785e17723d852bad24e",
+  "publishConfig": {
+    "access": "public"
+  }
 }
