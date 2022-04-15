@@ -11,5 +11,7 @@ install name : `@dream-bit/array-utils`
 ```
 const arrayUtils = require('array-utils');
 
-// TODO: DEMONSTRATE API
+// TC +
+
+cccc nm    <ya>ya0<as3'D>
 ```
