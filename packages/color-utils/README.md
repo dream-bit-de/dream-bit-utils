@@ -1,18 +1,13 @@
-<p align="center">
-[![NPM](https://nodei.co/npm/@dream-bit/color-utils.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@dream-bit/color-utils)
-</p>
-<h1 align="center">
-  color-utils
-</h1>
-
-<p align="center">
   <a href="http://makeapullrequest.com">  
-      <img alt="Gatsby" src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
+      <img alt="Pull Requests Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
   </a>
-</p>
+  
+ # color-utils
+
+[![NPM](https://nodei.co/npm/@dream-bit/color-utils.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@dream-bit/color-utils)
 
 **Some helper utilities used when working with colors.**
-**On a side note, this module was born because we did work on a NFT Project with random Pixel-Data which needed to be converted to integer values.**
+**On a side note, this module was born because we did work on a NFT Project with random Pixel-Data which needed the functions in this package.**
 
 ## 🎓 Install
 

@@ -1,15 +1,10 @@
-<p align="center">
-[![NPM](https://nodei.co/npm/@dream-bit/math-utils.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@dream-bit/math-utils)
-</p>
-<h1 align="center">
-  math-utils
-</h1>
-
-<p align="center">
   <a href="http://makeapullrequest.com">  
-      <img alt="Gatsby" src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
+      <img alt="Pull Requests Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
   </a>
-</p>
+  
+ # math-utils
+
+[![NPM](https://nodei.co/npm/@dream-bit/math-utils.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@dream-bit/math-utils)
 
 **Some helper utilities used when working with math or random numbers.**
 
