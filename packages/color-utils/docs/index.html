@@ -14,28 +14,25 @@
 <p><strong>Some helper utilities used when working with colors.</strong>
 <strong>On a side note, this module was born because we did work on a NFT Project with random Pixel-Data which needed to be converted to integer values.</strong></p>
 
-<a href="#mortar_board-install" id="mortar_board-install" style="color: inherit; text-decoration: none;">
-  <h2>:mortar_board: Install</h2>
+<a href="#🎓-install" id="🎓-install" style="color: inherit; text-decoration: none;">
+  <h2>🎓 Install</h2>
 </a>
 <p>Just use <code>npm install</code>, <code>yarn add</code> or <code>pnpm install</code>, it&#39;s your choice.
 The package name is: <code>@dream-bit/color-utils</code></p>
 
-<a href="#tada-usage" id="tada-usage" style="color: inherit; text-decoration: none;">
-  <h2>:tada: Usage</h2>
+<a href="#🎉-usage" id="🎉-usage" style="color: inherit; text-decoration: none;">
+  <h2>🎉 Usage</h2>
 </a>
 <p>You will find all necessary information about the functions in their own documentation.
 Docs: <a href="https://dream-bit-de.github.io/dream-bit-utils/packages/color-utils/docs/">https://dream-bit-de.github.io/dream-bit-utils/packages/color-utils/docs/</a></p>
 <p><strong>Short explanation:</strong></p>
 <ul>
-<li><code>additionWithLimit(limit: number, a: number | number[], b?: number): number</code>: Will sum up 2 numbers with a given limit. If that limit would&#39;ve been exceeded by the addition, the limit is returned.</li>
-<li><code>getRandom(): number</code>: Note that as numbers in JavaScript are IEEE 754 floating point numbers with round-to-nearest-even behavior, the ranges claimed for the functions below (excluding the one for Math.random() itself) aren&#39;t exact.</li>
-<li><code>getRandomArbitrary(min: number, max: number): number</code>: This example returns a random number between the specified values.</li>
-<li><code>getRandomIntInclusive(min: number, max: number): number</code>: This example returns a random integer between the specified values.</li>
-<li><code>subtractionWithLimit(limit: number, a: number, b: number): number</code>: Will subtract 2 numbers with a given limit. If that limit would&#39;ve been undershot by the subtraction, the limit is returned.</li>
+<li><code>normalizeColor(color: string | number): number</code>: This function will normalize RGB or RGBA colors from string to integers for Jimp to use.</li>
+<li><code>normalizeHLSToRGB(h: number, s: number, l: number, rgb?: { b: number; g: number; r: number }): { b: number; g: number; r: number }</code>: This method converts HSL color values to RGB color values.</li>
 </ul>
 
-<a href="#star-contributing" id="star-contributing" style="color: inherit; text-decoration: none;">
-  <h2>:star: contributing</h2>
+<a href="#⭐-contributing" id="⭐-contributing" style="color: inherit; text-decoration: none;">
+  <h2>⭐ contributing</h2>
 </a>
 <p>You want to help us, and join the Dream-bit Community?
 Great! Please make sure to check out and understand what is written in the following files:</p>
@@ -44,11 +41,11 @@ Great! Please make sure to check out and understand what is written in the follo
 <li>CONTRIBUTING.md</li>
 </ul>
 
-<a href="#blush-about-dream-bit" id="blush-about-dream-bit" style="color: inherit; text-decoration: none;">
-  <h2>:blush: About Dream-bit</h2>
+<a href="#😊-about-dream-bit" id="😊-about-dream-bit" style="color: inherit; text-decoration: none;">
+  <h2>😊 About Dream-bit</h2>
 </a>
 <p>At dream-bit dreams become software!
 We encourage people to do good things with software and bring humanity forward.
 You can be a part of us by contributing or joining the community at <a href="https://dream-bit.de">https://dream-bit.de</a></p>
-<p>Develop software with your :heart: as your :brain:.</p>
+<p>Develop software with your ❤️ as your 🧠.</p>
 </div></div><div class="col-4 col-menu menu-sticky-wrap menu-highlight"><nav class="tsd-navigation primary"><ul><li class="current"><a href="modules.html">Exports</a></li></ul></nav><nav class="tsd-navigation secondary menu-sticky"><ul><li class="tsd-kind-function"><a href="modules.html#normalizeColor" class="tsd-kind-icon">normalize<wbr/>Color</a></li><li class="tsd-kind-function"><a href="modules.html#normalizeHLSToRGB" class="tsd-kind-icon">normalizeHLSToRGB</a></li></ul></nav></div></div></div><footer class="with-border-bottom"><div class="container"><h2>Settings</h2><p>Theme <select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></p></div></footer><div class="container tsd-generator"><p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div><div class="overlay"></div><script src="assets/main.js"></script></body></html>
