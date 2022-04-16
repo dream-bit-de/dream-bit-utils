@@ -1,0 +1,43 @@
+{
+  "name": "@dream-bit/color-utils",
+  "version": "1.0.0",
+  "description": "A package to have some utilities when working with colors",
+  "keywords": [
+    "numbers",
+    "color",
+    "color to int",
+    "normalize",
+    "utilities",
+    "util"
+  ],
+  "author": "Dream-bit <hello@dream-bit.de>",
+  "homepage": "https://dream-bit.de",
+  "license": "MPL-2.0",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dream-bit-de/dream-bit-utils.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "cleanup": "rimraf ../../lib/packages/color-utils",
+    "changelog": "yarn gitmoji-changelog",
+    "prebuild": "yarn cleanup && yarn test && yarn docs",
+    "build": "tsc --project tsconfig.lib.json",
+    "docs": "typedoc --options ./typedoc.json"
+  },
+  "bugs": {
+    "url": "https://github.com/dream-bit-de/dream-bit-utils/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "jimp": "^0.16.1"
+  }
+}
