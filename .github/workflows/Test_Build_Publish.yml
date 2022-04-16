@@ -28,9 +28,13 @@ jobs:
     - name: Create Changelogs
       run: |
         lerna run changelog
+        git config --global user.email ci-bot@github.com
+        git config --global user.name GitHub Actions
         git add -A
         git commit -m "Automated report"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Configure CI Git User
       run: |
         git config --global user.email ci-bot@github.com
