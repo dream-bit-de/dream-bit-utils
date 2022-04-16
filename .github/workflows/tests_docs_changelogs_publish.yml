@@ -29,6 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - run: git pull
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
@@ -36,8 +37,8 @@ jobs:
           cache: "yarn"
       - name: Install Repo deps
         run: lerna bootstrap
-      - name: Create Docs
-        run: lerna run docs --stream
+      - name: Create Changelogs
+        run: lerna run changelog --stream
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 📝 Automated Changelogs
@@ -49,6 +50,7 @@ jobs:
         node-version: [16.x]
     steps:
       - uses: actions/checkout@v3
+      - run: git pull
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
@@ -78,18 +80,6 @@ jobs:
           cache: "yarn"
       - name: Install Repo deps
         run: lerna bootstrap
-      - name: Run tests
-        run: lerna run test --stream
-      - name: Create Changelogs
-        run: |
-          lerna run changelog
-          git config --global user.email ci-bot@github.com
-          git config --global user.name GitHub Actions
-          git add -A
-          git commit -m "Automated report"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Configure CI Git User
         run: |
           git config --global user.email ci-bot@github.com
