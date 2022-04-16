@@ -17,7 +17,8 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@dream-bit/array-utils": ["packages/array-utils"]
+      "@dream-bit/array-utils": ["packages/array-utils"],
+      "@dream-bit/math-utils": ["packages/math-utils"]
     }
   },
   "exclude": ["node_modules", "tmp"]
