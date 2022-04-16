@@ -5,6 +5,6 @@
 
 ### Fixed
 
-- 🐛 fixed no test specified error [[6a163ef](https://github.com/dream-bit-de/dream-bit-utils/commit/6a163ef9d0bf1818aefc102a24a56ec75e5f7ab1)]
+- 🐛 fixed publish error [[587e2fb](https://github.com/dream-bit-de/dream-bit-utils/commit/587e2fb3332a35cfd18cc2db80c6de38b423bc86)]
 
 
