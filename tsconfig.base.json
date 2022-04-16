@@ -18,7 +18,8 @@
     "baseUrl": ".",
     "paths": {
       "@dream-bit/array-utils": ["packages/array-utils"],
-      "@dream-bit/math-utils": ["packages/math-utils"]
+      "@dream-bit/math-utils": ["packages/math-utils"],
+      "@dream-bit/color-utils": ["packages/color-utils"]
     }
   },
   "exclude": ["node_modules", "tmp"]
