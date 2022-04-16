@@ -29,8 +29,8 @@ jobs:
         NPM_TOKEN: ${{ secrets.DREAM_BIT_UTILS_NPM_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        echo "registry=//registry.npmjs.org/:_authToken=${{env.NPM_TOKEN}}"
         echo "registry=//registry.npmjs.org/:_authToken=${{env.NPM_TOKEN}}" > ~/.npmrc
+        cat  ~/.npmrc
     - name: Configure CI Git User
       run: |
         git config --global user.email ci-bot@github.com
