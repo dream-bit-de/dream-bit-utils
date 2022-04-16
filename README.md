@@ -7,3 +7,13 @@
 # dream-bit-utils
 
 JavaScript utilities written in Typescript and managed as a monorepo.
+
+# @dream-bit/array-utils
+
+Code: https://github.com/dream-bit-de/dream-bit-utils/tree/main/packages/array-utils
+Docs: https://dream-bit-de.github.io/dream-bit-utils/packages/array-utils/docs/
+
+# @dream-bit/math-utils
+
+Code: https://github.com/dream-bit-de/dream-bit-utils/tree/main/packages/math-utils
+Docs: https://dream-bit-de.github.io/dream-bit-utils/packages/math-utils/docs/
