@@ -63,6 +63,7 @@ jobs:
           commit_message: 📝 Automated Changelogs
 
   publish:
+    needs: [changelogs, docs]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
