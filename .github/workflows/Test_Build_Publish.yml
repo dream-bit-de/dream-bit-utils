@@ -26,7 +26,11 @@ jobs:
     - name: Run tests
       run: lerna run test --stream
     - name: Create Changelogs
-      run: lerna run changelog
+      run: |
+        lerna run changelog
+        git add -A
+        git commit -m "Automated report"
+        git push
     - name: Configure CI Git User
       run: |
         git config --global user.email ci-bot@github.com
