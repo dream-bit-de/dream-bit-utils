@@ -10,33 +10,27 @@ on:
 jobs:
   test_build_publish:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v3
       with:
-        fetch-depth: 0 # Checkout all branches and tags; important for lerna to track changes.
-    - name: Use Node.js ${{ matrix.node-version }}
+          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Use Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: '16.x'
+        registry-url: https://registry.npmjs.org/
         cache: 'yarn'
     - name: Install Repo deps
       run: lerna bootstrap
     - name: Run tests
       run: lerna run test --stream
-    - name: Authenticate with Registry
-      run: echo "registry=//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
-      env:
-        NPM_TOKEN: ${{ secrets.DREAM_BIT_UTILS_NPM_TOKEN }}
-
     - name: Configure CI Git User
       run: |
         git config --global user.email ci-bot@github.com
         git config --global user.name GitHub Actions
     - name: Publish Packages
-      run: lerna publish patch --no-verify-access --yes
+      run: lerna publish patch --conventional-commits --no-verify-access --yes
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.DREAM_BIT_UTILS_NPM_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
