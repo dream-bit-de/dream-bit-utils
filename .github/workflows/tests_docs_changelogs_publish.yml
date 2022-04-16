@@ -24,8 +24,25 @@ jobs:
         run: lerna bootstrap
       - name: Run tests
         run: lerna run test --stream
-  docs:
+  changelogs:
     needs: tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "yarn"
+      - name: Install Repo deps
+        run: lerna bootstrap
+      - name: Create Docs
+        run: lerna run docs --stream
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 📝 Automated Changelogs
+  docs:
+    needs: changelogs
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -44,24 +61,6 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 📝 Automated Docs
-  changelogs:
-    needs: tests
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "yarn"
-      - name: Install Repo deps
-        run: lerna bootstrap
-      - name: Create Docs
-        run: lerna run docs --stream
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 📝 Automated Changelogs
-
   publish:
     needs: [changelogs, docs]
     runs-on: ubuntu-latest
