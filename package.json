@@ -24,6 +24,16 @@
     "typedoc": "^0.22.11",
     "typescript": "~4.5.5"
   },
+  "changelog": {
+    "labels": {
+      "feature": "✨ New Feature",
+      "bug": "🐛 Bug Fix",
+      "breaking": "💥 Breaking Change",
+      "enhancement": "🚀 Enhancement",
+      "documentation": "📝 Documentation",
+      "internal": "🏠 Internal"
+    }
+  },
   "workspaces": [
     "packages/*"
   ]
