@@ -11,11 +11,9 @@
   "author": "Dream-bit <hello@dream-bit.de>",
   "homepage": "https://dream-bit.de",
   "license": "MPL-2.0",
-  "directories": {
-    "dist": "dist"
-  },
   "files": [
-    "dist"
+    "dist",
+    "docs"
   ],
   "repository": {
     "type": "git",
