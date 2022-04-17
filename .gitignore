@@ -103,5 +103,3 @@ typings/
 .tern-port
 
 .npmrc
-
-dist/
