@@ -24,7 +24,7 @@
     "url": "git+https://github.com/dream-bit-de/dream-bit-utils.git"
   },
   "scripts": {
-    "test": "jest",
+    "test": "echo \"No test specified for this package\" && exit 0",
     "cleanup": "rimraf ./dist/",
     "changelog": "yarn gitmoji-changelog",
     "prebuild": "yarn cleanup",
