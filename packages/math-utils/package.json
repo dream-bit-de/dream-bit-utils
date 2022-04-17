@@ -1,6 +1,6 @@
 {
   "name": "@dream-bit/math-utils",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A package to have some utilities when working with math or random numbers",
   "keywords": [
     "numbers",
