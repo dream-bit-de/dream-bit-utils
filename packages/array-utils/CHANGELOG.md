@@ -1,7 +1,7 @@
 # Changelog
 
-<a name="1.0.32"></a>
-## 1.0.32 (2022-04-17)
+<a name="1.0.33"></a>
+## 1.0.33 (2022-04-17)
 
 ### Added
 
@@ -48,10 +48,15 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[059e6e4](https://github.com/dream-bit-de/dream-bit-utils/commit/059e6e4b2c849b2d5a5f2c46c3b378ffb14ab822)]
+- 🧪 trying main and types in package.json [[c19e011](https://github.com/dream-bit-de/dream-bit-utils/commit/c19e01103e04259a2de76ef3e1bf2d8b811e92c0)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[9a6a3ed](https://github.com/dream-bit-de/dream-bit-utils/commit/9a6a3edd2a6563f2df02b2ed3e287cacba7349a8)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[94fa220](https://github.com/dream-bit-de/dream-bit-utils/commit/94fa2200d60abeebfcb431814b648628d92fef44)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[c5a2231](https://github.com/dream-bit-de/dream-bit-utils/commit/c5a22311b3058adc9dc575aac3f6148f0b5172cc)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[3ab4a5d](https://github.com/dream-bit-de/dream-bit-utils/commit/3ab4a5d7c5a762fff1e767bd626057b25fd7a47f)]
+-  Publish [[d7fbabf](https://github.com/dream-bit-de/dream-bit-utils/commit/d7fbabfd8067936ddc3f6fc96d67a6f900ee1ba1)]
+- 📝 Automated Docs [[166be50](https://github.com/dream-bit-de/dream-bit-utils/commit/166be507e4342175eb93be51e3b1589058226482)]
+- 📝 Automated Changelogs [[c6771a0](https://github.com/dream-bit-de/dream-bit-utils/commit/c6771a0dbb44b255a6702d60843f3fb0843dc921)]
 - 📝 Automated Changelogs [[50a7f60](https://github.com/dream-bit-de/dream-bit-utils/commit/50a7f60e1ebd2ca3fdeaa90c35fff38c1f2e3924)]
 -  Publish [[16894e2](https://github.com/dream-bit-de/dream-bit-utils/commit/16894e2794133be6666d5aa5d59e888a86b6e641)]
 - 📝 Automated Changelogs [[a0c9d25](https://github.com/dream-bit-de/dream-bit-utils/commit/a0c9d2516abc211409535e0ec60fc5e307f5c7ab)]
