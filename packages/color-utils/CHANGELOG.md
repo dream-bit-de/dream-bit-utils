@@ -1,7 +1,7 @@
 # Changelog
 
-<a name="1.0.13"></a>
-## 1.0.13 (2022-04-17)
+<a name="1.0.14"></a>
+## 1.0.14 (2022-04-17)
 
 ### Added
 
@@ -43,6 +43,8 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[e8ae36c](https://github.com/dream-bit-de/dream-bit-utils/commit/e8ae36c80c5bd3cf0832981393e237f637aca8ba)]
+- 🧪 packaging test [[0d12b69](https://github.com/dream-bit-de/dream-bit-utils/commit/0d12b6996f3931ec770d628a7ef01bc256e21a50)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[cc185e4](https://github.com/dream-bit-de/dream-bit-utils/commit/cc185e46a7550db2838cc66e1a3d3ef3d2a839af)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[66b5f12](https://github.com/dream-bit-de/dream-bit-utils/commit/66b5f12833a99dd8251f1610c547c5b4bda040d4)]
 -  . [[93567fe](https://github.com/dream-bit-de/dream-bit-utils/commit/93567fe858e98c86087208a7061ba4b79c1d0b97)]
@@ -56,6 +58,9 @@
 - 🧪 directories and files testing [[1d0636b](https://github.com/dream-bit-de/dream-bit-utils/commit/1d0636b2ba59eb4853a1ae4a1c08d7f0ccf0025f)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[d2c5b0f](https://github.com/dream-bit-de/dream-bit-utils/commit/d2c5b0f594443d13a142a09d928cfed11f80997f)]
 - 🧪 publish test [[81e35f0](https://github.com/dream-bit-de/dream-bit-utils/commit/81e35f0f315d9dbe7fd9c5f9aac99798ef9bca82)]
+-  Publish [[4726c19](https://github.com/dream-bit-de/dream-bit-utils/commit/4726c19825d16582a44a2f680175906ee2f95d9a)]
+- 📝 Automated Docs [[c0925b8](https://github.com/dream-bit-de/dream-bit-utils/commit/c0925b8414fd7851f36117339ab777e9af527725)]
+- 📝 Automated Changelogs [[2b3e877](https://github.com/dream-bit-de/dream-bit-utils/commit/2b3e87741a10e78b276248cdf942c2fe9cae55e9)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[b42b788](https://github.com/dream-bit-de/dream-bit-utils/commit/b42b788f759216c35cbfd9f5813a5c4d33260eea)]
 - 🧪 testing files in package.json [[036b92f](https://github.com/dream-bit-de/dream-bit-utils/commit/036b92f0a9e020c229ca5a5c29069e4e2e7969f4)]
 -  Publish [[a96007b](https://github.com/dream-bit-de/dream-bit-utils/commit/a96007b4da5c3df47fc20865bc8d5c6ff6e84eca)]
