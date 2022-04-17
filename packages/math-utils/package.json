@@ -26,7 +26,7 @@
     "test": "echo \"No test specified for this package\" && exit 0",
     "cleanup": "rimraf ../../lib/packages/math-utils",
     "changelog": "yarn gitmoji-changelog",
-    "prebuild": "yarn cleanup && yarn test && yarn docs",
+    "prebuild": "yarn cleanup",
     "build": "tsc --project tsconfig.lib.json",
     "docs": "typedoc --options ./typedoc.json"
   },

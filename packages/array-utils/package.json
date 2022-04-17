@@ -25,7 +25,7 @@
     "test": "jest",
     "cleanup": "rimraf ../../lib/packages/array-utils",
     "changelog": "yarn gitmoji-changelog",
-    "prebuild": "yarn cleanup && yarn test && yarn docs",
+    "prebuild": "yarn cleanup && yarn",
     "build": "tsc --project tsconfig.lib.json",
     "docs": "typedoc --options ./typedoc.json"
   },
