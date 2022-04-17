@@ -1,7 +1,7 @@
 # Changelog
 
-<a name="1.0.25"></a>
-## 1.0.25 (2022-04-17)
+<a name="1.0.26"></a>
+## 1.0.26 (2022-04-17)
 
 ### Added
 
@@ -41,6 +41,8 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[911001c](https://github.com/dream-bit-de/dream-bit-utils/commit/911001cb7a67ee3aaf3aef533956ece654a0e6a3)]
+- 🧪 removed directories [[d9e09b8](https://github.com/dream-bit-de/dream-bit-utils/commit/d9e09b86994ee4a6874aefa57126104f395aba82)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[f9441d1](https://github.com/dream-bit-de/dream-bit-utils/commit/f9441d1cb7a63c513c092b72f78e841427371a7f)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[fc87fac](https://github.com/dream-bit-de/dream-bit-utils/commit/fc87fac9c55a10ba2f0020961fd7ecf1f5101599)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[7ca3389](https://github.com/dream-bit-de/dream-bit-utils/commit/7ca33892ddd369b49efb49ae4fbd967c968d5eaa)]
@@ -57,6 +59,9 @@
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[f15e92d](https://github.com/dream-bit-de/dream-bit-utils/commit/f15e92d4caf695b8d0d4d12452dd711d7c30b7a2)]
 - 🧪 testing tspath with npm publish [[79d0276](https://github.com/dream-bit-de/dream-bit-utils/commit/79d02762a19332ea0e8785273867964164ecf533)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[8026a1a](https://github.com/dream-bit-de/dream-bit-utils/commit/8026a1ac7908a297ca4bc307a514cf1088e71485)]
+-  Publish [[121fe21](https://github.com/dream-bit-de/dream-bit-utils/commit/121fe215f7e29286b8f93b12e546e862b865a34d)]
+- 📝 Automated Docs [[b0542ea](https://github.com/dream-bit-de/dream-bit-utils/commit/b0542ea44a0039aa7b3b18cc7ba043a4b2a125f9)]
+- 📝 Automated Changelogs [[e3dfcd4](https://github.com/dream-bit-de/dream-bit-utils/commit/e3dfcd42db43c574112a44918ca3493888d01bae)]
 -  Publish [[d609643](https://github.com/dream-bit-de/dream-bit-utils/commit/d609643bea991fe67a254f416c8f5962151167bd)]
 - 📝 Automated Docs [[879a210](https://github.com/dream-bit-de/dream-bit-utils/commit/879a21077c6d2dd6669b1fa646b22c3c1bcf0944)]
 - 📝 Automated Changelogs [[3238e7c](https://github.com/dream-bit-de/dream-bit-utils/commit/3238e7cb3920ae3f081982df1f6cc6b95faabc8e)]
