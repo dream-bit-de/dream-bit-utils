@@ -1,7 +1,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -14,13 +13,7 @@
     "lib": ["es2017"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "resolveJsonModule": true,
-    "baseUrl": ".",
-    "paths": {
-      "@dream-bit/array-utils": ["packages/array-utils"],
-      "@dream-bit/math-utils": ["packages/math-utils"],
-      "@dream-bit/color-utils": ["packages/color-utils"]
-    }
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules", "tmp"]
 }
