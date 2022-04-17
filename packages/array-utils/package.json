@@ -15,7 +15,7 @@
     "array-utils": "../../dist/array-utils"
   },
   "files": [
-    "../../dist/array-utils"
+    "../../dist/packages/array-utils"
   ],
   "repository": {
     "type": "git",
