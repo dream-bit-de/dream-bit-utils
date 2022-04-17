@@ -76,30 +76,8 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 📝 Automated Docs
-  build:
-    needs: docs
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: recursive
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - run: git pull
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "yarn"
-      - name: Install Repo deps
-        run: lerna bootstrap
-      - name: Build Files
-        run: lerna run build
-  publish:
-    needs: [build]
+  build_publish:
+    needs: [changelog, docs]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -116,6 +94,8 @@ jobs:
           cache: "yarn"
       - name: Install Repo deps
         run: lerna bootstrap
+      - name: Build Files
+        run: lerna run build
       - name: Configure CI Git User
         run: |
           git config --global user.email ci-bot@github.com
