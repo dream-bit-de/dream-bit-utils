@@ -1,6 +1,6 @@
 {
   "name": "@dream-bit/color-utils",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "A package to have some utilities when working with colors",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
