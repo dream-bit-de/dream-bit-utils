@@ -1,7 +1,7 @@
 # Changelog
 
-<a name="1.0.16"></a>
-## 1.0.16 (2022-04-17)
+<a name="1.0.17"></a>
+## 1.0.17 (2022-04-17)
 
 ### Added
 
@@ -37,6 +37,7 @@
 
 ### Fixed
 
+- 🐛 no parallel publish [[80749d4](https://github.com/dream-bit-de/dream-bit-utils/commit/80749d4560a0ed4f347b2d61eff5e08df74a3ccd)]
 - 🐛 fixed packaging issue [[3d67848](https://github.com/dream-bit-de/dream-bit-utils/commit/3d67848cce16adebd13313ac9867d2588439c6a4)]
 - 🐛 fixed publish error [[587e2fb](https://github.com/dream-bit-de/dream-bit-utils/commit/587e2fb3332a35cfd18cc2db80c6de38b423bc86)]
 - 🐛 fixed no test specified error [[6a163ef](https://github.com/dream-bit-de/dream-bit-utils/commit/6a163ef9d0bf1818aefc102a24a56ec75e5f7ab1)]
@@ -46,8 +47,11 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[94fa220](https://github.com/dream-bit-de/dream-bit-utils/commit/94fa2200d60abeebfcb431814b648628d92fef44)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[c5a2231](https://github.com/dream-bit-de/dream-bit-utils/commit/c5a22311b3058adc9dc575aac3f6148f0b5172cc)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[3ab4a5d](https://github.com/dream-bit-de/dream-bit-utils/commit/3ab4a5d7c5a762fff1e767bd626057b25fd7a47f)]
+-  Publish [[16894e2](https://github.com/dream-bit-de/dream-bit-utils/commit/16894e2794133be6666d5aa5d59e888a86b6e641)]
+- 📝 Automated Changelogs [[a0c9d25](https://github.com/dream-bit-de/dream-bit-utils/commit/a0c9d2516abc211409535e0ec60fc5e307f5c7ab)]
 -  Publish [[bbba9ab](https://github.com/dream-bit-de/dream-bit-utils/commit/bbba9ab6307228ddfb2ef1084e393355ca8b6f85)]
 - 📝 Automated Changelogs [[64d552d](https://github.com/dream-bit-de/dream-bit-utils/commit/64d552d4bb1658fbc4399592f7a9a5d790b9a113)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[e8ae36c](https://github.com/dream-bit-de/dream-bit-utils/commit/e8ae36c80c5bd3cf0832981393e237f637aca8ba)]
