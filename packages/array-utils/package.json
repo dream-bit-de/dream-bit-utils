@@ -1,6 +1,6 @@
 {
   "name": "@dream-bit/array-utils",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "description": "A package to have some utilities when working with arrays",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
