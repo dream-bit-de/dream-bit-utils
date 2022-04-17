@@ -14,10 +14,10 @@
   "homepage": "https://dream-bit.de",
   "license": "MPL-2.0",
   "directories": {
-    "src": "src"
+    "color-utils": "./dist/packages/color-utils"
   },
   "files": [
-    "src"
+    "./dist/packages/color-utils"
   ],
   "repository": {
     "type": "git",

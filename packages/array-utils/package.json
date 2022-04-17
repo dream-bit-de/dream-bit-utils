@@ -12,10 +12,10 @@
   "homepage": "https://dream-bit.de",
   "license": "MPL-2.0",
   "directories": {
-    "array-utils": "../../dist/array-utils"
+    "array-utils": "./dist/packages/array-utils"
   },
   "files": [
-    "../../dist/packages/array-utils"
+    "./dist/packages/array-utils"
   ],
   "repository": {
     "type": "git",
@@ -23,9 +23,9 @@
   },
   "scripts": {
     "test": "jest",
-    "cleanup": "rimraf ../../lib/packages/array-utils",
+    "cleanup": "rimraf ./dist/",
     "changelog": "yarn gitmoji-changelog",
-    "prebuild": "yarn cleanup && yarn",
+    "prebuild": "yarn cleanup",
     "build": "tsc --project tsconfig.lib.json",
     "docs": "typedoc --options ./typedoc.json"
   },
