@@ -11,6 +11,9 @@
   "author": "Dream-bit <hello@dream-bit.de>",
   "homepage": "https://dream-bit.de",
   "license": "MPL-2.0",
+  "directories": {
+    "dist": "dist/packages/color-utils"
+  },
   "files": [
     "dist/packages/array-utils/**/*"
   ],
