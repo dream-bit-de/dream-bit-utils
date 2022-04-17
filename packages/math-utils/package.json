@@ -16,15 +16,16 @@
     "math-utils": "./dist/packages/math-utils"
   },
   "files": [
-    "./dist/packages/math-utils"
+    "dist/",
+    "docs/"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dream-bit-de/dream-bit-utils.git"
   },
   "scripts": {
-    "test": "echo \"No test specified for this package\" && exit 0",
-    "cleanup": "rimraf ../../lib/packages/math-utils",
+    "test": "jest",
+    "cleanup": "rimraf ./dist/",
     "changelog": "yarn gitmoji-changelog",
     "prebuild": "yarn cleanup",
     "build": "tsc --project tsconfig.lib.json",
