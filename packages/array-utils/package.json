@@ -12,7 +12,8 @@
   "homepage": "https://dream-bit.de",
   "license": "MPL-2.0",
   "directories": {
-    "dist": "dist/packages/color-utils"
+    "dist": "dist/packages/array-utils",
+    "src": "dist/packages/array-utils/src"
   },
   "files": [
     "dist/packages/array-utils/**/*"
