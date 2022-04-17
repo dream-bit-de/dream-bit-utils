@@ -12,11 +12,9 @@
   "homepage": "https://dream-bit.de",
   "license": "MPL-2.0",
   "files": [
-    "src/",
-    "index.js",
-    "index.js.map",
-    "index.ts",
-    "index.d.ts"
+    "dist/**/*",
+    "src/**/*",
+    "index.ts"
   ],
   "repository": {
     "type": "git",

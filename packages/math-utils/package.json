@@ -16,8 +16,9 @@
     "math-utils": "./dist/packages/math-utils"
   },
   "files": [
-    "dist/",
-    "docs/"
+    "dist/**/*",
+    "src/**/*",
+    "index.ts"
   ],
   "repository": {
     "type": "git",
