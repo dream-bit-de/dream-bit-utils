@@ -1,10 +1,11 @@
 # Changelog
 
-<a name="1.0.14"></a>
-## 1.0.14 (2022-04-17)
+<a name="1.0.15"></a>
+## 1.0.15 (2022-04-17)
 
 ### Added
 
+- ✨ added build process to workflow [[7fa646a](https://github.com/dream-bit-de/dream-bit-utils/commit/7fa646a076cb8432227809c56992cb48b53f63c9)]
 - 🎉 initial commit [[44086a5](https://github.com/dream-bit-de/dream-bit-utils/commit/44086a5cc67460199258e083377c652c550de11c)]
 - ✨ added path to new module color-utils [[a4a6c77](https://github.com/dream-bit-de/dream-bit-utils/commit/a4a6c77aafc20923f225ff4ce9b480eefac4427e)]
 - ✨ added path to new module math-utils [[6f605be](https://github.com/dream-bit-de/dream-bit-utils/commit/6f605be5862c6e47b667247a8c0b39645c8eaed7)]
@@ -17,6 +18,7 @@
 
 ### Changed
 
+- 🏗️ using the right paths for publish [[8d0265b](https://github.com/dream-bit-de/dream-bit-utils/commit/8d0265be2a86780ff0e7340c55072cf6493ff55a)]
 - 🏗️ reverted missing test [[bcc75dc](https://github.com/dream-bit-de/dream-bit-utils/commit/bcc75dc4b1c19cc54e4eb80ecde04cda26a2818f)]
 - 🏗️ revoked [[7973db1](https://github.com/dream-bit-de/dream-bit-utils/commit/7973db1e617f2b68745f56f8cc5af8c20260f696)]
 - 🏗️ removed dist from gitignore [[14f584f](https://github.com/dream-bit-de/dream-bit-utils/commit/14f584fa5a11b23947e7167468ca792ae6d6cf37)]
@@ -43,6 +45,7 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[3ab4a5d](https://github.com/dream-bit-de/dream-bit-utils/commit/3ab4a5d7c5a762fff1e767bd626057b25fd7a47f)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[e8ae36c](https://github.com/dream-bit-de/dream-bit-utils/commit/e8ae36c80c5bd3cf0832981393e237f637aca8ba)]
 - 🧪 packaging test [[0d12b69](https://github.com/dream-bit-de/dream-bit-utils/commit/0d12b6996f3931ec770d628a7ef01bc256e21a50)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[cc185e4](https://github.com/dream-bit-de/dream-bit-utils/commit/cc185e46a7550db2838cc66e1a3d3ef3d2a839af)]
@@ -56,6 +59,9 @@
 - 🧪 removed tsconfig paths for dist folders [[bd2adc2](https://github.com/dream-bit-de/dream-bit-utils/commit/bd2adc20f53b04890027be1235e182f88261e40d)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[4ae266c](https://github.com/dream-bit-de/dream-bit-utils/commit/4ae266cf8411c7b14a1e08c930b7756aad4887f7)]
 - 🧪 directories and files testing [[1d0636b](https://github.com/dream-bit-de/dream-bit-utils/commit/1d0636b2ba59eb4853a1ae4a1c08d7f0ccf0025f)]
+-  Publish [[be09b62](https://github.com/dream-bit-de/dream-bit-utils/commit/be09b62ca31f55ceb594ef139739855800541453)]
+- 📝 Automated Docs [[3a6d055](https://github.com/dream-bit-de/dream-bit-utils/commit/3a6d055da1d4f78563427a9296560ce32e79d21f)]
+- 📝 Automated Changelogs [[ea0f773](https://github.com/dream-bit-de/dream-bit-utils/commit/ea0f773c8e0f2768a9786296cd5b2282b79bb9c9)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[d2c5b0f](https://github.com/dream-bit-de/dream-bit-utils/commit/d2c5b0f594443d13a142a09d928cfed11f80997f)]
 - 🧪 publish test [[81e35f0](https://github.com/dream-bit-de/dream-bit-utils/commit/81e35f0f315d9dbe7fd9c5f9aac99798ef9bca82)]
 -  Publish [[4726c19](https://github.com/dream-bit-de/dream-bit-utils/commit/4726c19825d16582a44a2f680175906ee2f95d9a)]
