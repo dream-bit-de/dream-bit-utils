@@ -1,7 +1,7 @@
 # Changelog
 
-<a name="1.0.27"></a>
-## 1.0.27 (2022-04-17)
+<a name="1.0.28"></a>
+## 1.0.28 (2022-04-17)
 
 ### Added
 
@@ -17,6 +17,7 @@
 
 ### Changed
 
+- 🏗️ reverted missing test [[bcc75dc](https://github.com/dream-bit-de/dream-bit-utils/commit/bcc75dc4b1c19cc54e4eb80ecde04cda26a2818f)]
 - 🏗️ revoked [[7973db1](https://github.com/dream-bit-de/dream-bit-utils/commit/7973db1e617f2b68745f56f8cc5af8c20260f696)]
 - 🏗️ removed dist from gitignore [[14f584f](https://github.com/dream-bit-de/dream-bit-utils/commit/14f584fa5a11b23947e7167468ca792ae6d6cf37)]
 - 🏗️ better checkout [[6cb3ab2](https://github.com/dream-bit-de/dream-bit-utils/commit/6cb3ab2d87e1997f10bff7bd99b260f679ecf190)]
@@ -33,6 +34,7 @@
 
 ### Fixed
 
+- 🐛 fixed packaging issue [[3d67848](https://github.com/dream-bit-de/dream-bit-utils/commit/3d67848cce16adebd13313ac9867d2588439c6a4)]
 - 🐛 fixed publish error [[587e2fb](https://github.com/dream-bit-de/dream-bit-utils/commit/587e2fb3332a35cfd18cc2db80c6de38b423bc86)]
 - 🐛 fixed no test specified error [[6a163ef](https://github.com/dream-bit-de/dream-bit-utils/commit/6a163ef9d0bf1818aefc102a24a56ec75e5f7ab1)]
 - 🐛 fixed ci head origin mismatch [[c5790f0](https://github.com/dream-bit-de/dream-bit-utils/commit/c5790f0522cb1e7cab640b7dd043a55091066b27)]
@@ -41,6 +43,7 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[cc185e4](https://github.com/dream-bit-de/dream-bit-utils/commit/cc185e46a7550db2838cc66e1a3d3ef3d2a839af)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[66b5f12](https://github.com/dream-bit-de/dream-bit-utils/commit/66b5f12833a99dd8251f1610c547c5b4bda040d4)]
 -  . [[93567fe](https://github.com/dream-bit-de/dream-bit-utils/commit/93567fe858e98c86087208a7061ba4b79c1d0b97)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[911001c](https://github.com/dream-bit-de/dream-bit-utils/commit/911001cb7a67ee3aaf3aef533956ece654a0e6a3)]
@@ -55,7 +58,10 @@
 - 🧪 publish test [[81e35f0](https://github.com/dream-bit-de/dream-bit-utils/commit/81e35f0f315d9dbe7fd9c5f9aac99798ef9bca82)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[b42b788](https://github.com/dream-bit-de/dream-bit-utils/commit/b42b788f759216c35cbfd9f5813a5c4d33260eea)]
 - 🧪 testing files in package.json [[036b92f](https://github.com/dream-bit-de/dream-bit-utils/commit/036b92f0a9e020c229ca5a5c29069e4e2e7969f4)]
+-  Publish [[a96007b](https://github.com/dream-bit-de/dream-bit-utils/commit/a96007b4da5c3df47fc20865bc8d5c6ff6e84eca)]
+- 📝 Automated Docs [[bbc4daa](https://github.com/dream-bit-de/dream-bit-utils/commit/bbc4daaed14506bee7151f5de28ffc244b1c8664)]
 - 🧪 testing build process [[7d7d87d](https://github.com/dream-bit-de/dream-bit-utils/commit/7d7d87d3ba9212c9e6d6832c9c99869f396464c5)]
+- 📝 Automated Changelogs [[578ba16](https://github.com/dream-bit-de/dream-bit-utils/commit/578ba16c7548cc631237b7b940413e0628159289)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[4ae9028](https://github.com/dream-bit-de/dream-bit-utils/commit/4ae90287770d3e3a1e2518e22042aa7a0e6a2820)]
 - 🧪 more tspath npm publish testing [[5a8c97e](https://github.com/dream-bit-de/dream-bit-utils/commit/5a8c97e2c98a84f1e033dcaea1c9ce8b3e4fbfb5)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[f15e92d](https://github.com/dream-bit-de/dream-bit-utils/commit/f15e92d4caf695b8d0d4d12452dd711d7c30b7a2)]
