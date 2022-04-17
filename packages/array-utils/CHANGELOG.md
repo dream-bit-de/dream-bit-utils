@@ -1,7 +1,7 @@
 # Changelog
 
-<a name="1.0.30"></a>
-## 1.0.30 (2022-04-17)
+<a name="1.0.31"></a>
+## 1.0.31 (2022-04-17)
 
 ### Added
 
@@ -18,6 +18,7 @@
 
 ### Changed
 
+- 🏗️ dist now available in build [[653fb0a](https://github.com/dream-bit-de/dream-bit-utils/commit/653fb0a64ba055b4e2238990737867956b5cc11e)]
 - 🏗️ using the right paths for publish [[8d0265b](https://github.com/dream-bit-de/dream-bit-utils/commit/8d0265be2a86780ff0e7340c55072cf6493ff55a)]
 - 🏗️ reverted missing test [[bcc75dc](https://github.com/dream-bit-de/dream-bit-utils/commit/bcc75dc4b1c19cc54e4eb80ecde04cda26a2818f)]
 - 🏗️ revoked [[7973db1](https://github.com/dream-bit-de/dream-bit-utils/commit/7973db1e617f2b68745f56f8cc5af8c20260f696)]
@@ -45,7 +46,10 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[c5a2231](https://github.com/dream-bit-de/dream-bit-utils/commit/c5a22311b3058adc9dc575aac3f6148f0b5172cc)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[3ab4a5d](https://github.com/dream-bit-de/dream-bit-utils/commit/3ab4a5d7c5a762fff1e767bd626057b25fd7a47f)]
+-  Publish [[bbba9ab](https://github.com/dream-bit-de/dream-bit-utils/commit/bbba9ab6307228ddfb2ef1084e393355ca8b6f85)]
+- 📝 Automated Changelogs [[64d552d](https://github.com/dream-bit-de/dream-bit-utils/commit/64d552d4bb1658fbc4399592f7a9a5d790b9a113)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[e8ae36c](https://github.com/dream-bit-de/dream-bit-utils/commit/e8ae36c80c5bd3cf0832981393e237f637aca8ba)]
 - 🧪 packaging test [[0d12b69](https://github.com/dream-bit-de/dream-bit-utils/commit/0d12b6996f3931ec770d628a7ef01bc256e21a50)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[cc185e4](https://github.com/dream-bit-de/dream-bit-utils/commit/cc185e46a7550db2838cc66e1a3d3ef3d2a839af)]
