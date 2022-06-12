@@ -1,0 +1,7 @@
+{
+  "entryPoints": ["./index.ts"],
+  "githubPages": false,
+  "out": "./docs",
+  "exclude": ["*.spec.ts", "*.e2e.ts"],
+  "tsconfig": "./tsconfig.lib.json"
+}
