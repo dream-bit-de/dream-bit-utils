@@ -1,6 +1,6 @@
 {
   "name": "@dream-bit/math-utils",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "A package to have some utilities when working with math or random numbers",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
