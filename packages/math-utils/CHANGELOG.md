@@ -1,7 +1,7 @@
 # Changelog
 
-<a name="1.0.22"></a>
-## 1.0.22 (2022-06-12)
+<a name="1.0.23"></a>
+## 1.0.23 (2022-06-12)
 
 ### Added
 
@@ -20,6 +20,7 @@
 
 ### Changed
 
+- 🏗️ cleanup [[7f6da9f](https://github.com/dream-bit-de/dream-bit-utils/commit/7f6da9ff5e1c9414e3e6ecef3ade0704c3b80929)]
 - 🏗️ docs for numbers-utils created [[3cfe9f9](https://github.com/dream-bit-de/dream-bit-utils/commit/3cfe9f9e24d18483739e90ff5402d1078efc8c3e)]
 - 🏗️ dist now available in build [[653fb0a](https://github.com/dream-bit-de/dream-bit-utils/commit/653fb0a64ba055b4e2238990737867956b5cc11e)]
 - 🏗️ using the right paths for publish [[8d0265b](https://github.com/dream-bit-de/dream-bit-utils/commit/8d0265be2a86780ff0e7340c55072cf6493ff55a)]
@@ -52,7 +53,11 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils [[bdb57a4](https://github.com/dream-bit-de/dream-bit-utils/commit/bdb57a4da71557de8f38e61123a9d822183d4a9f)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils [[0217ca3](https://github.com/dream-bit-de/dream-bit-utils/commit/0217ca3d9ca5e0e8dced1d94d003f25f9f948f5d)]
+-  Publish [[2ae886e](https://github.com/dream-bit-de/dream-bit-utils/commit/2ae886efd5d1efe2ff6843fab40c591167db4f98)]
+- 📝 Automated Docs [[f392c3f](https://github.com/dream-bit-de/dream-bit-utils/commit/f392c3fcbba6294aa7c27b842ef38d5c9bb5ea65)]
+- 📝 Automated Changelogs [[d3e42fe](https://github.com/dream-bit-de/dream-bit-utils/commit/d3e42fe8f686faadf8db58ed182c8e26e53519c4)]
 - 📝 Automated Changelogs [[02c69f0](https://github.com/dream-bit-de/dream-bit-utils/commit/02c69f008e29040ee112439e311c912e67f04955)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[056ca50](https://github.com/dream-bit-de/dream-bit-utils/commit/056ca5002dde9ed681333c019e7c68af16726db8)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[7a4398a](https://github.com/dream-bit-de/dream-bit-utils/commit/7a4398ae8b3f5596e6914951de43f4ba3678ee78)]
