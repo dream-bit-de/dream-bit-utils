@@ -20,7 +20,7 @@ Docs: https://dream-bit-de.github.io/dream-bit-utils/packages/numbers-utils/docs
 
 **Short explanation:**
 
-- `normalizeColor(color: string | number): number`: aaaaa
+- `isNumeric(toBeChecked: any): boolean`: Will check if the given value is a numeric value or not. Check docs for more information.
 
 ## ⭐ contributing
 

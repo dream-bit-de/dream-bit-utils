@@ -22,3 +22,8 @@ JavaScript utilities written in Typescript and managed as a monorepo.
 
 - Code: https://github.com/dream-bit-de/dream-bit-utils/tree/main/packages/color-utils
 - Docs: https://dream-bit-de.github.io/dream-bit-utils/packages/color-utils/docs/
+
+# @dream-bit/numbers-utils
+
+- Code: https://github.com/dream-bit-de/dream-bit-utils/tree/main/packages/numbers-utils
+- Docs: https://dream-bit-de.github.io/dream-bit-utils/packages/numbers-utils/docs/

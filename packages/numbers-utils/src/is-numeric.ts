@@ -9,7 +9,7 @@
  *
  * @return  {boolean}           If the given parameter is a numeric value it will return true.
  */
-export function isNumeric(toBeChecked: any) {
+export function isNumeric(toBeChecked: any): boolean {
   return (
     (typeof toBeChecked === 'number' || (typeof toBeChecked === 'string' && toBeChecked.trim() !== '')) &&
     !isNaN(toBeChecked as number)
