@@ -1,10 +1,11 @@
 # Changelog
 
-<a name="1.0.21"></a>
-## 1.0.21 (2022-04-17)
+<a name="1.0.22"></a>
+## 1.0.22 (2022-06-12)
 
 ### Added
 
+- ✨ numbers-utils released [[48db0a0](https://github.com/dream-bit-de/dream-bit-utils/commit/48db0a09170ad170751af32d6f58e6202af79df6)]
 - ✨ distribution of all packages complete [[da4545e](https://github.com/dream-bit-de/dream-bit-utils/commit/da4545e6c6c80f8b8c2820e975a5600631cbf757)]
 - ✨ added build process to workflow [[7fa646a](https://github.com/dream-bit-de/dream-bit-utils/commit/7fa646a076cb8432227809c56992cb48b53f63c9)]
 - 🎉 initial commit [[44086a5](https://github.com/dream-bit-de/dream-bit-utils/commit/44086a5cc67460199258e083377c652c550de11c)]
@@ -61,6 +62,9 @@
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[94fa220](https://github.com/dream-bit-de/dream-bit-utils/commit/94fa2200d60abeebfcb431814b648628d92fef44)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[c5a2231](https://github.com/dream-bit-de/dream-bit-utils/commit/c5a22311b3058adc9dc575aac3f6148f0b5172cc)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[3ab4a5d](https://github.com/dream-bit-de/dream-bit-utils/commit/3ab4a5d7c5a762fff1e767bd626057b25fd7a47f)]
+-  Publish [[65d588b](https://github.com/dream-bit-de/dream-bit-utils/commit/65d588b45596035fa5e5fc5554090ae5d84443d1)]
+- 📝 Automated Docs [[e8712a0](https://github.com/dream-bit-de/dream-bit-utils/commit/e8712a0855839fd20c51315d8ae9a6b515ad49cc)]
+- 📝 Automated Changelogs [[e69de11](https://github.com/dream-bit-de/dream-bit-utils/commit/e69de11518b203b25a09bc0eed0b936d5394e1ea)]
 -  Publish [[52906ad](https://github.com/dream-bit-de/dream-bit-utils/commit/52906add4fbbe0407598bda71c18264dce557fc7)]
 - 📝 Automated Docs [[8d57e71](https://github.com/dream-bit-de/dream-bit-utils/commit/8d57e7160947e5c47ec045d61f591aed897a8215)]
 - 📝 Automated Changelogs [[44d4a52](https://github.com/dream-bit-de/dream-bit-utils/commit/44d4a52c29c7fb7907ed8641cf7ef3e9477ada91)]
