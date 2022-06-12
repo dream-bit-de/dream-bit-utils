@@ -20,6 +20,7 @@
 
 ### Changed
 
+- 🏗️ docs for numbers-utils created [[3cfe9f9](https://github.com/dream-bit-de/dream-bit-utils/commit/3cfe9f9e24d18483739e90ff5402d1078efc8c3e)]
 - 🏗️ dist now available in build [[653fb0a](https://github.com/dream-bit-de/dream-bit-utils/commit/653fb0a64ba055b4e2238990737867956b5cc11e)]
 - 🏗️ using the right paths for publish [[8d0265b](https://github.com/dream-bit-de/dream-bit-utils/commit/8d0265be2a86780ff0e7340c55072cf6493ff55a)]
 - 🏗️ reverted missing test [[bcc75dc](https://github.com/dream-bit-de/dream-bit-utils/commit/bcc75dc4b1c19cc54e4eb80ecde04cda26a2818f)]
@@ -51,6 +52,8 @@
 
 ### Miscellaneous
 
+-  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils [[0217ca3](https://github.com/dream-bit-de/dream-bit-utils/commit/0217ca3d9ca5e0e8dced1d94d003f25f9f948f5d)]
+- 📝 Automated Changelogs [[02c69f0](https://github.com/dream-bit-de/dream-bit-utils/commit/02c69f008e29040ee112439e311c912e67f04955)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[056ca50](https://github.com/dream-bit-de/dream-bit-utils/commit/056ca5002dde9ed681333c019e7c68af16726db8)]
 -  Merge branch &#x27;main&#x27; of https://github.com/dream-bit-de/dream-bit-utils into main [[7a4398a](https://github.com/dream-bit-de/dream-bit-utils/commit/7a4398ae8b3f5596e6914951de43f4ba3678ee78)]
 - 🧪 lerna experiment [[e76a09f](https://github.com/dream-bit-de/dream-bit-utils/commit/e76a09f9a1a70a782f14b5ea457f0da07fa097a2)]
