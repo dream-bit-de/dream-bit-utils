@@ -1,6 +1,6 @@
 {
   "name": "@dream-bit/numbers-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to have some utilities when working with numbers",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
